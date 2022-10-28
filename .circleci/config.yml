@@ -19,7 +19,7 @@ jobs:
       - run: pip install awscli --upgrade
       - run: aws --version
       - run: aws s3 ls
-      - run: yarn run deploy
+      - run: yarn run deploy-s3
 
 workflows:
   deploy-to-s3:
